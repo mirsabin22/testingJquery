@@ -29,10 +29,10 @@
         "tidur gih",
         "Never gonna give you up Never gonna let you down Never gonna run around and desert youNever gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you",
       ];
-      let currentIndex = 0;
+      let i = 0;
 
       $("#button").click(() => {
-        currentIndex = (currentIndex + 1) % texts.length;
+        i = (i + 1) % texts.length;
         $("#title").text(texts[currentIndex]);
       });
     </script>
